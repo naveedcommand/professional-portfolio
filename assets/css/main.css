@@ -1,0 +1,220 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #4d5e7b;
+	background-color: #fff;
+}
+h2 {
+	font-size: 38px;
+	margin: 0px;
+	font-weight: bold;
+	text-align: right;
+	letter-spacing:-2px;
+}
+h3 {
+	font-size: 18px;
+}
+a {
+	text-decoration: none;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+a:focus, a:hover {
+	text-decoration: none;
+	outline: none
+}
+section {
+	padding: 40px 0;
+}
+.heading {
+	padding-bottom: 90px;
+}
+a {
+	color: #485774;
+}
+.main-nav {
+	background-color: #32343e;
+}
+.navbar-right li a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navbar-right li.active a {
+	background-color: rgba(0,0,0,.2);
+}
+.navbar-nav li a:hover, .navbar-nav li a:focus {
+	outline: none;
+	outline-offset: 0;
+	text-decoration: none;
+	background: rgba(0,0,0,.2);
+}
+.navbar-brand h1 {
+	margin-top: 5px;
+	color: #FFF;
+	font-size: 32px;
+}
+.banner_img {
+	background: url(../images/web-banner.png) no-repeat;
+	background-size: cover;
+	min-height: 230px;
+	position: relative;
+}
+.banner_text {
+	position: absolute;
+	bottom: 20px;
+	font-size: 48px;
+	font-weight: bold;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.banner_text span {
+	font-size: 24px;
+	font-weight: normal;
+	display: block;
+	padding-top: 10px
+}
+.border-left {
+	border-left: 2px solid #475975;
+	padding-left: 30px;
+	min-height: 86px;
+}
+#about-us {
+	padding: 60px 0;
+}
+#about-us h2 {
+	margin-top: 0;
+	color: #fff;
+}
+#about-us h1 {
+	margin-bottom: 30px;
+}
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column div {
+	position: relative;
+	float: left;
+	/*width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;*/
+	padding: 0;
+}
+figure {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+	max-height: 350px;
+	cursor: pointer;
+	margin-bottom: 25px;
+}
+.fig2 {
+	max-height: 200px;
+}
+.hover01 figure:hover {
+	opacity: 0.9;
+}
+.hover01 div label {
+	background: rgba(0,0,0,0.6);
+	padding: 14px 25px;
+	min-width: 170px;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	position: absolute;
+	line-height: normal;
+	bottom: 40px;
+}
+.hover01 div label span {
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+}
+.gray_bg {
+	background: #f1f1f1;
+}
+.py {
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+ul.f-link {
+	padding: 0;
+	margin: 0
+}
+ul.f-link li {
+	padding: 0;
+	margin: 10px 20px 0;
+	display: inline-block;
+	font-size: 18px;
+}
+ul.f-link li a {
+	padding: 0;
+	margin: 10px 10px 0;
+	display: inline-block;
+	font-size: 18px;
+	border-bottom: 3px solid
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+.navbar-right li a {
+	font-size: 12px;
+	padding-right: 10px;
+}
+}
+ @media (max-width: 767px) {
+h2 {
+	font-size: 40px;
+	margin: 0 0 10px 0px;
+	font-weight: bold;
+	text-align: left;
+}
+section {
+	padding: 20px 0;
+}
+.border-left {
+	border-left: 0px solid #475975;
+	padding-left: 15px;
+}
+.navbar-brand {
+	padding: 0 15px 15px;
+}
+.navbar-toggle {
+	border: 1px solid #fff;
+}
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-right li a {
+	font-size: 13px;
+	padding-bottom: 8px;
+	padding-top: 10px;
+}
+.hover01 div label {
+	bottom: 7px
+}
+.banner_text {
+	position: absolute;
+	bottom: 20px;
+	font-size: 38px;
+}
+.banner_text span {
+	font-size: 22px;
+}
+ul.f-link li {
+	padding: 0;
+	margin: 0;
+}
+}
+ @media (max-width: 480px) {
+.hover01 div label {
+	width: 310px;
+}
+}
